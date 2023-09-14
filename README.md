@@ -1,4 +1,4 @@
-#Hangman Game on Web
+<h1>Hangman Game on Web</h1>
 
 Online hangman game using svg, random-word-api to generate random words, and css to build hangman.
 
