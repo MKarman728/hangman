@@ -107,11 +107,12 @@ playAgainBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 })
 
-// Starts Game
+// Starts Game using async await
 async function startGame() {
     selectedWord = await getRandomWord();
     console.log(selectedWord)
     displayWord();
 }
 
+//function to begin game
 startGame();
