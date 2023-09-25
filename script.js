@@ -8,8 +8,8 @@ const finalMessage = document.getElementById('final-message');
 const figureParts = document.querySelectorAll('.figure-part');
 const correctLetters = [];
 const wrongLetters = [];
+// Originally used for testing however Random word function now takes place of this feature.
 const words = ['application', 'programming', 'interface', 'wizard'];
-
 const index = Math.floor(Math.random() * words.length);
 let selectedWord;
 
